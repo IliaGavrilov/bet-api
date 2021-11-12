@@ -1,7 +1,16 @@
 # Intro
-Bet-api is a temporary project:
+Bet-api is a temporary project according to a task
 
-* 'com.game.bet-api' simulates gaming using bet.
+Write a backend for the game:
+
+* The player sends the bet and an integer from 1 to 100 to the server.
+* The server generates a random integer from 1 to 100 and if the player's number is greater, calculates the winnings and sends a response to the client.
+* The winning depends on the chance - = bet * (99 / (100 - number)), for example, if a person chose the number 50 and the bet is 40.5, then the winning will be 80.19
+
+Additional task:
+
+Write a test that will play 1m rounds in parallel in 24 threads and calculate how much money is returned to the player (RTP)
+For example: on 1m of games the player spent 1m and won 990,000, RTP will be 99%.
 
 # Getting Started
 
